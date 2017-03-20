@@ -1,7 +1,7 @@
 
 # Configure status bar
-set-option -g status-bg blue
-set-option -g status-fg white
+#set-option -g status-bg blue
+#set-option -g status-fg white
 
 bind-key -t vi-copy y copy-pipe "pbcopy"
 
