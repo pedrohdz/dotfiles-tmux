@@ -7,9 +7,9 @@ bind-key -T copy-mode-vi y send-keys -X copy-pipe "pbcopy" \; \
         display-message "Copied to clipboard." \; \
         send -X clear-selection
 
-bind-key  -T copy-mode-vi Enter send-keys -X copy-pipe "pbcopy" \; \
-        display-message "Copied to clipboard." \; \
-        send -X cancel
+#bind-key  -T copy-mode-vi Enter send-keys -X copy-pipe "pbcopy" \; \
+#        display-message "Copied to clipboard." \; \
+#        send -X cancel
 
 #------------------------------------------------------------------------------
 # Mouse support
